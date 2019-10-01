@@ -34,9 +34,7 @@
   scroll-snap-type: y mandatory;
 }
 
-.start{
-  scroll-snap-align: start;
-}
+
 
 ul {
   background-color: #B0C4DE;
