@@ -58,6 +58,10 @@ li a {
   margin-top: 2em;
 }
 
+nav {
+  position: fixed;
+}
+
 .heading {
   padding: 1em;
 }
