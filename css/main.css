@@ -1,0 +1,170 @@
+#profile {
+  border-radius:100%;
+  width: 25%;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.profile {
+  margin-top: 2.5em;
+  margin-bottom: 1.5em;
+}
+
+.jumbotron {
+  background-color: #001f3f !important;
+  text-align: center;
+  color: #FFFFFF !important;
+}
+
+
+/* .content {
+  /* padding-top: 70px; */
+  /* padding-bottom: 40px; */
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  line-height: 30px;
+  font-size: px;
+} */
+
+.contain{
+  scroll-snap-type: y mandatory;
+}
+
+.start{
+  scroll-snap-align: start;
+}
+
+ul {
+  background-color: #B0C4DE;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 2em;
+}
+li {
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: white;
+}
+
+.navbar {
+  margin-top: 2em;
+}
+
+.heading {
+  padding: 1em;
+}
+
+#about-me{
+  width: 60%;
+  margin-top: 2em;
+}
+
+#defining-movement{
+  width: 60%;
+}
+
+#kungfu {
+  width: 60%;
+  margin-top: 2em;
+}
+
+#violin {
+  width: 60%;
+  margin-top: 2em;
+}
+
+#friend {
+  width: 60%;
+  margin-top: 2em;
+}
+
+.more {
+  margin-top: 0.75em;
+}
+
+.friend .images {
+  margin-top: 1em;
+}
+
+.extra {
+  line-height: 2em;
+}
+
+h2 {
+  color: #001f3f !important;
+}
+
+h3 {
+  color: #FF9900 !important;
+}
+
+.greeting {
+  margin: 1.5em;
+}
+
+.content {
+  font-size: 1.2em;
+  line-height: 2em;
+  margin: 1.25em;
+}
+
+.figure-caption {
+  margin: 0.5em;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.2em;
+  margin-bottom: 1em;
+  margin-top: 0.3em;
+}
+
+.fa {
+  padding-left: 1em;
+  padding-right: 1em;
+  color: #B0C4DE;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+.fa:hover {
+  animation: bounce 1s;
+  text-decoration: none;
+  color: #001f3f !important;
+}
+
+.fa:focus{
+  text-decoration: none;
+  color: #B0C4DE;
+}
+
+footer {
+  background-color: #F8F8F8;
+  padding: 10px;
+  color: #696969;
+}
